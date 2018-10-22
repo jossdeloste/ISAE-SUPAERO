@@ -1,0 +1,62 @@
+2017-07-10  Florent Lamiraux  <florent@laas.fr>
+
+	Remove slides
+
+	Enhance exercises
+	  - Add documentation of useful methods,
+	  - split Exercise 2 in two parts.
+
+	Rename scripts for better readability.
+
+2017-07-04  Florent Lamiraux  <florent@laas.fr>
+
+	Fix instructions and bounds of ball configuration space.
+
+2017-05-16  Florent Lamiraux  <florent@laas.fr>
+
+	Install ur5 and environment files to remove dependencies
+
+2016-11-30  Florent Lamiraux  <florent@laas.fr>
+
+	Update script/manipulation.py to topic/pinocchio branch.
+
+	Use variable ballName to hide ugly name of joint.
+
+	Update to devel branch.
+
+2016-11-28  Florent Lamiraux  <florent@laas.fr>
+
+	Fix bug in construction of manipulation graph.
+	    - edge "release-ball" does not contain "placement" constraint.
+
+2016-11-24  Florent Lamiraux  <florent@laas.fr>
+
+	Finished slide for manipulation planning.
+
+2016-11-18  tpplanning  <tt@t.com>
+
+	rebase
+
+2016-11-18  tpplanning  <stonneau@hotmail.com>
+
+	save g1 file
+
+2016-11-18  tpplanning  <stonneau@hotmail.fr>
+
+	updating missing packages
+
+	update instructions for aip
+
+2016-11-18  Steve Tonneau  <stonneau@axle.laas.fr>
+
+	Merge branch 'master' of https://github.com/humanoid-path-planner/hpp-practicals
+
+	adding help
+
+2016-10-07  Steve Tonneau  <stonneau@laas.fr>
+
+	updated documentation
+
+2016-06-28  Florent Lamiraux  <florent@laas.fr>
+
+	Tutorial rrt and manipulation planning.
