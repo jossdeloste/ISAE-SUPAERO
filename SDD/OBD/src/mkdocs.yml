@@ -1,0 +1,67 @@
+site_name: Tools of Big Data
+site_description: Big Data class at ISAE-Supaero as part of the SDD program
+site_url: https://supaerodatascience.github.io/OBD/
+site_dir: site
+strict: false
+use_directory_urls: false
+
+theme:
+  name: 'material'
+  palette:
+    primary: light blue
+    accent: light blue
+  logo: 'https://raw.githubusercontent.com/SupaeroDataScience/OBD/master/src/favicon.ico'
+  favicon: 'https://raw.githubusercontent.com/SupaeroDataScience/OBD/master/src/favicon.ico'
+  features:
+    - toc.autohide
+    - navigation.sections
+
+repo_name: SupaeroDataScience/OBD
+repo_url: https://github.com/SupaeroDataScience/OBD
+
+nav:
+- Overview:
+    - Syllabus: index.md
+    - Presentation: 0_0_intro.md
+- Data Storage:
+    - Introduction: 0_1_databases.md
+    - PostgreSQL: 0_2_postgres.md
+    - Project: 0_3_project.md
+- Data Computation:
+  - Introduction: 1_1_overview.md
+  - Cloud Computing:
+    - Lectures: 1_2_cloud.md
+    - TP 1 GCP Initial Setup & First Steps : 1_2_gcp_setup.md
+    - TP 2 GCP Hands On: 1_2_gcp_handson.md
+  - Containers, Docker:
+    - Lecture: 1_3_containers.md
+    - TP: 1_3_docker_tp.md
+  - Google Cloud and Docker BE: 1_4_be.md
+  - Deployment & Orchestration:
+    - Lectures: 1_5_deployment.md
+    - TP - Deployment: 1_5_deployment_tp.md
+    - TP (at home) - Kubenertes Intro: 1_5_kub_intro.md
+  - Conclusion: 1_6_conclusion.md
+  - Reading List: 1_7_readings.md
+- Data Distribution:
+  - Introduction: 2_1_overview.md
+  - Functional Programming: 2_2_functional.md
+  - Hadoop and MapReduce: 2_3_mapreduce.md
+  - Spark: 2_4_spark.md
+  - Dask on Kubernetes: 2_5_dask.md
+  - Dask project: 2_6_project.md
+
+markdown_extensions:
+- markdown.extensions.codehilite:
+    guess_lang: false
+- toc:
+    permalink: 🔗
+- admonition
+- codehilite
+- extra
+- attr_list
+- pymdownx.details
+- pymdownx.superfences
+
+plugins:
+- search

@@ -1,0 +1,3 @@
+SELECT DISTINCT bar
+FROM Sert NATURAL JOIN Aime
+WHERE buveur = 'Martin';
